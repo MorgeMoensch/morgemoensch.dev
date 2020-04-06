@@ -10,18 +10,22 @@ body {
 	margin-right: auto;
 }
 
-dl dd {
-	padding-left: 1em;
+ul {
+	list-style-type: none;
+	margin-bottom: .6rem;
+}
+
+ul li {
 	margin-bottom: 0;
 	margin-top: 0.25em;
 }
 
-dl dd div {
+ul li div {
 	position: relative;
-	vertical-align: middle;
+	vertical-align: midule;
 }
 
-dl dd img {
+ul li img {
 	width: 1.5em;
 	height: 1.5em;
 	object-fit: contain;
@@ -32,12 +36,12 @@ dl dd img {
 	z-index: 0;
 }
 
-dl dd .listText {
+ul li .listText {
 	margin-left: 2em;
 }
 
 .panel .panel-body {
-	padding-top: 0.8rem;
+	paliing-top: 0.8rem;
 }
 
 #aboutMe {

@@ -16,6 +16,26 @@ dl dd {
 	margin-top: 0.25em;
 }
 
+dl dd div {
+	position: relative;
+	vertical-align: middle;
+}
+
+dl dd img {
+	width: 1.5em;
+	height: 1.5em;
+	object-fit: contain;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	display: block;
+	z-index: 0;
+}
+
+dl dd .listText {
+	margin-left: 2em;
+}
+
 .panel .panel-body {
 	padding-top: 0.8rem;
 }

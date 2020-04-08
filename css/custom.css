@@ -1,9 +1,11 @@
 body {
 	background-color: #303742;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 .container {
-	min-height: 100vh;
+	min-height: calc(100vh - 2em);
 	width: 100vw;
 	align-items: center;
 	margin-left: auto;

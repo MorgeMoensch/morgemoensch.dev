@@ -29,6 +29,8 @@
 body {
 	background-image: url("../img/background-comp.jpg");
 	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 * {

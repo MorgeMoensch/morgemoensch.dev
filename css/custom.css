@@ -76,6 +76,11 @@ ul li .listText {
 	margin-left: 2em;
 }
 
+.panel {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
 .panel .panel-body {
 	padding-top: 0.8rem;
 }

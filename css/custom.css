@@ -101,3 +101,15 @@ ul li .listText {
 .h5 {
 	font-size: 1.3rem;
 }
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.flex-element {
+	flex: auto;
+	margin-right: 0.7em;
+	margin-left: 0.7em;
+}

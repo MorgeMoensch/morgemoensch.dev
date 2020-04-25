@@ -27,10 +27,17 @@
 }
 
 body {
-	background-image: url("../img/background.webp");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+
+.webp body {
+	background-image: url("../img/background.webp");
+}
+
+.no-webp body {
+	background-image: url("../img/background-comp.jpg");
 }
 
 * {

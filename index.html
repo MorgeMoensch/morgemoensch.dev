@@ -6,62 +6,70 @@
 		<link rel="stylesheet" href="./css/custom.css" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
 		<meta charset="utf-8" />
-	</head>
-	<body>
-		<div class="bg-dark columns container">
-			<div class="panel col-xl-6 col-md-10 col-mx-auto">
-				<div class="panel-header text-center">
-					<figure class="avatar avatar-xl">
-						<img src="./img/morgemoensch-avatar.webp" alt="MorgeMoensch Avatar" class="img-fit-cover">
-					</figure>
-					<div class="panel-title h2 mt-10">Matthias</div>
-					<div class="panel-subtitle">Morgemönsch</div>
-					<p class="m-20" id="aboutMe">Just a guy interested in coding and privacy.<br/>Currently working @ Swisscom.</p>
-				</div>
-				<div class="divider"></div>
-				<div class="panel-body flex-container">
-					<div class="flex-element">
-						<h3 class="h5">Technologies:</h3>
-						<ul>
-							<li><div class="text-normal d-inline"><img src="./img/logos/rails.svg" alt="Ruby on Rails Logo"><div class="listText text text-light d-inline">Ruby on Rails</div></div></li>
-							<li><div class="text-normal d-inline"><img src="./img/logos/react.svg" alt="React Logo"><div class="listText text text-light d-inline">React</div></div></li>
-							<li><div class="text-normal d-inline "><img src="./img/logos/dotnet-core.svg" alt=".NET Core Logo"><div class="listText d-inline">.NET Core</div></div></li>
-							<li><div class="text-normal d-inline"><img src="./img/logos/java.svg" alt="Java Logo"><div class="listText d-inline	">Java</div></div></li>
-						</ul>
+		<script>
+			/*! modernizr 3.6.0 (Custom Build) | MIT *
+		* https://modernizr.com/download/?-webp-setclasses !*/
+		!function(e,n,A){function o(e,n){return typeof e===n}function t(){var e,n,A,t,a,i,l;for(var f in r)if(r.hasOwnProperty(f)){if(e=[],n=r[f],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(A=0;A<n.options.aliases.length;A++)e.push(n.options.aliases[A].toLowerCase());for(t=o(n.fn,"function")?n.fn():n.fn,a=0;a<e.length;a++)i=e[a],l=i.split("."),1===l.length?Modernizr[l[0]]=t:(!Modernizr[l[0]]||Modernizr[l[0]]instanceof Boolean||(Modernizr[l[0]]=new Boolean(Modernizr[l[0]])),Modernizr[l[0]][l[1]]=t),s.push((t?"":"no-")+l.join("-"))}}function a(e){var n=u.className,A=Modernizr._config.classPrefix||"";if(c&&(n=n.baseVal),Modernizr._config.enableJSClass){var o=new RegExp("(^|\\s)"+A+"no-js(\\s|$)");n=n.replace(o,"$1"+A+"js$2")}Modernizr._config.enableClasses&&(n+=" "+A+e.join(" "+A),c?u.className.baseVal=n:u.className=n)}function i(e,n){if("object"==typeof e)for(var A in e)f(e,A)&&i(A,e[A]);else{e=e.toLowerCase();var o=e.split("."),t=Modernizr[o[0]];if(2==o.length&&(t=t[o[1]]),"undefined"!=typeof t)return Modernizr;n="function"==typeof n?n():n,1==o.length?Modernizr[o[0]]=n:(!Modernizr[o[0]]||Modernizr[o[0]]instanceof Boolean||(Modernizr[o[0]]=new Boolean(Modernizr[o[0]])),Modernizr[o[0]][o[1]]=n),a([(n&&0!=n?"":"no-")+o.join("-")]),Modernizr._trigger(e,n)}return Modernizr}var s=[],r=[],l={_version:"3.6.0",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var A=this;setTimeout(function(){n(A[e])},0)},addTest:function(e,n,A){r.push({name:e,fn:n,options:A})},addAsyncTest:function(e){r.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=l,Modernizr=new Modernizr;var f,u=n.documentElement,c="svg"===u.nodeName.toLowerCase();!function(){var e={}.hasOwnProperty;f=o(e,"undefined")||o(e.call,"undefined")?function(e,n){return n in e&&o(e.constructor.prototype[n],"undefined")}:function(n,A){return e.call(n,A)}}(),l._l={},l.on=function(e,n){this._l[e]||(this._l[e]=[]),this._l[e].push(n),Modernizr.hasOwnProperty(e)&&setTimeout(function(){Modernizr._trigger(e,Modernizr[e])},0)},l._trigger=function(e,n){if(this._l[e]){var A=this._l[e];setTimeout(function(){var e,o;for(e=0;e<A.length;e++)(o=A[e])(n)},0),delete this._l[e]}},Modernizr._q.push(function(){l.addTest=i}),Modernizr.addAsyncTest(function(){function e(e,n,A){function o(n){var o=n&&"load"===n.type?1==t.width:!1,a="webp"===e;i(e,a&&o?new Boolean(o):o),A&&A(n)}var t=new Image;t.onerror=o,t.onload=o,t.src=n}var n=[{uri:"data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAwA0JaQAA3AA/vuUAAA=",name:"webp"},{uri:"data:image/webp;base64,UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAABBxAR/Q9ERP8DAABWUDggGAAAADABAJ0BKgEAAQADADQlpAADcAD++/1QAA==",name:"webp.alpha"},{uri:"data:image/webp;base64,UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA",name:"webp.animation"},{uri:"data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=",name:"webp.lossless"}],A=n.shift();e(A.name,A.uri,function(A){if(A&&"load"===A.type)for(var o=0;o<n.length;o++)e(n[o].name,n[o].uri)})}),t(),a(s),delete l.addTest,delete l.addAsyncTest;for(var p=0;p<Modernizr._q.length;p++)Modernizr._q[p]();e.Modernizr=Modernizr}(window,document);
+			</script>
+		</head>
+		<body>
+			<div class="bg-dark columns container">
+				<div class="panel col-xl-6 col-md-10 col-mx-auto">
+					<div class="panel-header text-center">
+						<figure class="avatar avatar-xl">
+							<picture>
+								<source src="./img/morgemoensch-avatar.webp" type="image/webp">
+								<img src="./img/morgemoensch-avatar.jpg" alt="MorgeMoensch Avatar" class="img-fit-cover">
+							</picture>
+						</figure>
+						<div class="panel-title h2 mt-10">Matthias</div>
+						<div class="panel-subtitle">Morgemönsch</div>
+						<p class="m-20" id="aboutMe">Just a guy interested in coding and privacy.<br/>Currently working @ Swisscom.</p>
 					</div>
-					<div class="flex-element">
-						<h3 class="h5">Social:</h3>
-						<ul>
-							<li><div class="text-normal d-inline"><img src="./img/logos/twitter.svg" alt="Twitter Logo"><a href="https://twitter.com/morgemoensch" class="text text-light listText">Twitter</a></div></li>
-							<li><div class="text-normal d-inline"><img src="./img/logos/github.svg" alt="Github Logo"><a href="https://github.com/morgemoensch" class="text text-light listText">Github</a></div></li>
-						</ul>
-					</div>
-					<div class="flex-element">
-						<h3 class="h5">Public Projects:</h3>
-						<ul>
-							<li><div class="text-normal"><a href="https://thecharmingtools.com" class="text text-light">TheCharmingTools</a></div></li>
-							<li><div class="text-normal"><a href="https://bcschuepfen.ch" class="text text-light">BC Schüpfen</a></div></li>
-						</ul>
-					</div>
-					<div class="flex-element">
-						<h3 class="h5">Interests:</h3>
-						<ul>
-							<li><div class="text-normal">Politics</div></li>
-							<li><div class="text-normal">Sports</div></li>
-							<li><div class="text-normal">Space Travel</div></li>
-							<li><div class="text-normal">Photo- & Videographqy</div></li>
-						</ul>
-					</div>
-					<div class="flex-element">
-						<h3 class="h5">Contact me:</h3>
-						<ul>
-							<li>
-								<a href="mailto:hello@morgemoensch.dev" class="text text-light">hello@morgemoensch.dev</a>
-							</li>
-						</ul>
+					<div class="divider"></div>
+					<div class="panel-body flex-container">
+						<div class="flex-element">
+							<h3 class="h5">Technologies:</h3>
+							<ul>
+								<li><div class="text-normal d-inline"><img src="./img/logos/rails.svg" alt="Ruby on Rails Logo"><div class="listText text text-light d-inline">Ruby on Rails</div></div></li>
+								<li><div class="text-normal d-inline"><img src="./img/logos/react.svg" alt="React Logo"><div class="listText text text-light d-inline">React</div></div></li>
+								<li><div class="text-normal d-inline "><img src="./img/logos/dotnet-core.svg" alt=".NET Core Logo"><div class="listText d-inline">.NET Core</div></div></li>
+								<li><div class="text-normal d-inline"><img src="./img/logos/java.svg" alt="Java Logo"><div class="listText d-inline	">Java</div></div></li>
+							</ul>
+						</div>
+						<div class="flex-element">
+							<h3 class="h5">Social:</h3>
+							<ul>
+								<li><div class="text-normal d-inline"><img src="./img/logos/twitter.svg" alt="Twitter Logo"><a href="https://twitter.com/morgemoensch" class="text text-light listText">Twitter</a></div></li>
+								<li><div class="text-normal d-inline"><img src="./img/logos/github.svg" alt="Github Logo"><a href="https://github.com/morgemoensch" class="text text-light listText">Github</a></div></li>
+							</ul>
+						</div>
+						<div class="flex-element">
+							<h3 class="h5">Public Projects:</h3>
+							<ul>
+								<li><div class="text-normal"><a href="https://thecharmingtools.com" class="text text-light">TheCharmingTools</a></div></li>
+								<li><div class="text-normal"><a href="https://bcschuepfen.ch" class="text text-light">BC Schüpfen</a></div></li>
+							</ul>
+						</div>
+						<div class="flex-element">
+							<h3 class="h5">Interests:</h3>
+							<ul>
+								<li><div class="text-normal">Politics</div></li>
+								<li><div class="text-normal">Sports</div></li>
+								<li><div class="text-normal">Space Travel</div></li>
+								<li><div class="text-normal">Photo- & Videographqy</div></li>
+							</ul>
+						</div>
+						<div class="flex-element">
+							<h3 class="h5">Contact me:</h3>
+							<ul>
+								<li>
+									<a href="mailto:hello@morgemoensch.dev" class="text text-light">hello@morgemoensch.dev</a>
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</body>
-</html>
+		</body>
+	</html>
